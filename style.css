@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.app{
+    background: linear-gradient(purple, white);
+    text-align: center;
+    padding: 25px;
+
+    width: 75%;
+    min-height: 60px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 8px black;
+}
